@@ -39,8 +39,15 @@ h2 {
     margin-top: 0;
 }
 
-.project {
+.education div p:nth-of-type(2) {
+    opacity: 50%;
+}
+
+.item {
     margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #292929;
+    border-radius: 10px;
 }
 
 footer {
