@@ -50,6 +50,10 @@ section {
     border-radius: 10px;
 }
 
+section div p:nth-of-type(2) {
+    opacity: 50%;
+}
+
 h2 {
     margin-top: 0;
 }
