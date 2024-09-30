@@ -20,10 +20,11 @@ header h1 {
 }
 
 ul {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    padding: 1rem;
 }
 
 header ul {
@@ -48,6 +49,10 @@ section {
     padding: 1.5rem;
     background-color: #1f1f1f;
     border-radius: 10px;
+}
+
+section div p:nth-of-type(2) {
+    opacity: 50%;
 }
 
 h2 {
